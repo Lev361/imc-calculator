@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,800;1,400;1,500;1,600&display=swap');
+
+
+*{
+	outline: 0;
+	box-sizing: border-box;
+	font-family: 'Open sans', sans-serif;
+}
+
+:root{
+	--bg-color:#e0e0e0;
+	--primary-color-dark: rgb(13,106,90);
+}
+
+body{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 100vh;
+	background: var(--bg-color);
+	font-size: 1.3em;
+	line-height: 1.5em;
+}
+
+h1{
+	font-weight: 800;
+	text-transform: uppercase;
+	color: #333;
+}
+p{
+	font-weight: 300;
+	color: #333;
+}
+.container {
+	width: 640px;
+	border-radius: 50px;
+	background: #e0e0e0;
+	box-shadow:  20px 20px 60px #bebebe,
+	             -20px -20px 60px #ffffff;
+	padding: 16px 25px;
+	margin-bottom: 10px;
+	border-radius: 10px;
+}
+
+form input, form label, form button {
+	font-weight: 400;
+	text-transform: uppercase;
+	padding-top: 20px;
+	color: #333;
+	display: block;
+	width: 100%;
+}
+
+form input{
+	border: none;
+	border-radius: 5px;
+
+	background: #e0e0e0;
+	box-shadow: inset 6px 6px 12px #8f8f8f,
+	            inset -6px -6px 12px #ffffff;
+
+	font-size: 24px;
+	height: 50px;
+	padding: 0 20px;
+}
+
+form input:focus {
+	outline: 1px solid var(--bg-color);
+}
+
+form button {
+	border: none;
+	background: blueviolet;
+	border-radius: 5px;
+	color: #fff;
+	font-weight: 800;
+	padding-bottom: 20px;
+	font-size: 18px;
+	height: 60px;
+	cursor: pointer;
+	margin-top: 10px;
+}
+
+form button:hover{
+	background: var(--primary-color-dark);
+}
+
+.paragrafo-result {
+	background: skyblue;
+	padding: 10px 20px;
+	color: #333;
+}
+
+.bad{
+	padding: 10px 20px;
+	background-color: darkred;
+	color: #fff;
+}
